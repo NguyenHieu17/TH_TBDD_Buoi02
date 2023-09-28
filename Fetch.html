@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        // fetch('https://650961f4f6553137159b525b.mockapi.io/Users')
+        //     .then(response => response.json())
+        //     .then(
+        //         (data) => {
+        //             var htmls = data.map(
+        //                 function (users) {
+        //                     return `<li> 
+        //                       <h2>${users.id}</h2>
+        //                       <h2>${users.firstName}</h2>
+        //                       <h2>${users.lastName}</h2>
+
+        //                          </li>`
+        //                 }
+        //             );
+        //             var html = htmls.join();
+        //             var text = document.getElementById('info').innerHTML
+        //                 = html;
+        //         }
+        //     )
+        //     .catch(() => console.log('Có lỗi!'))
+
+        // fetch('https://650961f4f6553137159b525b.mockapi.io/Users', {
+        //     method: 'POST',
+        //     body: JSON.stringify({
+
+        //         firstName: 'NguyenThi',
+        //         lastName: 'Hieu',
+        //     }),
+        //     headers: {
+        //         'Content-type': 'application/json; charset=UTF-8',
+        //     },
+        // })
+        //     .then((response) => response.json())
+        //     .then((json) => console.log(json));
+
+        fetch('https://650961f4f6553137159b525b.mockapi.io/Users/2', {
+            method: 'DELETE',
+            
+        });
+
+
+    </script>
+    <div id="info"></div>
+
+</body>
+
+</html>
